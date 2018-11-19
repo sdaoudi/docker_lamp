@@ -24,7 +24,6 @@ services:
       - ./apache/public_html/:/usr/local/apache2/htdocs/   
     environment:
       PHP_ROOT_DIR: ${PHP_ROOT_DIR}
-      #APACHE_IP: ${APACHE_IP}
       WEB_USER: ${WEB_USER}
       WEB_GROUP: ${WEB_GROUP}
       MYSQL_IP: ${MYSQL_IP}
