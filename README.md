@@ -10,6 +10,6 @@
 ### SELinux hosts:
 ```sh
 $ /usr/bin/setsebool -P httpd_can_network_connect 1
-$ httpd_can_network_connect_db 1
-$ mysql_connect_httpd 1
+$ /usr/bin/setsebool -P httpd_can_network_connect_db 1
+$ /usr/bin/setsebool -P mysql_connect_httpd 1
 ```
